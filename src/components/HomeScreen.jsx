@@ -26,6 +26,7 @@ const HomeScreen = ({
         Washington State 
         <br />Driver's License Test Prep
       </h1>
+      <h2>for Silas</h2>
       
       <img 
         src="/images/wa-dol-logo.png" 
