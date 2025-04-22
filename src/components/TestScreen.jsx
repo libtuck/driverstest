@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { questions } from '../data/questions'; 
+import React, { useState } from 'react';
+import questions from '../data/questions'; // Changed from import { questions } to import questions
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Button from './Button';
 import ProgressBar from './ProgressBar';
@@ -12,7 +12,7 @@ const shuffleArray = (array) => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[i], shuffled[j]];
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
   }
   return shuffled;
 };
@@ -25,8 +25,8 @@ const TestScreen = ({
   setUserAnswers, 
   testComplete, 
   setTestComplete,
-  setView,
-  setCurrentQuestionSet // Added this prop explicitly
+  setCurrentQuestionSet,
+  setView 
 }) => {
   const [showExplanation, setShowExplanation] = useState(false);
   
@@ -93,8 +93,6 @@ const TestScreen = ({
           </Button>
           <Button
             onClick={() => {
-              // This is the problematic line (line 84)
-              // Ensuring all variables are properly defined
               setCurrentQuestionSet(shuffleArray(questions).slice(0, 40));
               setUserAnswers({});
               setCurrentQuestion(0);
