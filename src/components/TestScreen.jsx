@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { questions } from '../data/questions'; 
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Button from './Button';
 import ProgressBar from './ProgressBar';
@@ -43,6 +44,15 @@ const TestScreen = ({
       setShowExplanation(false);
     }
   };
+
+  const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
   
   // If there are no questions, show loading
   if (currentQuestionSet.length === 0) {
