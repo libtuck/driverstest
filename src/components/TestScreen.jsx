@@ -7,6 +7,16 @@ import QuestionCard from './QuestionCard';
 import { theme } from '../styles/theme';
 import { calculateScore } from '../utils/helpers';
 
+// Helper function to shuffle array
+const shuffleArray = (array) => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 const TestScreen = ({ 
   currentQuestionSet, 
   currentQuestion, 
@@ -14,7 +24,8 @@ const TestScreen = ({
   userAnswers, 
   setUserAnswers, 
   testComplete, 
-  setTestComplete, 
+  setTestComplete,
+  setCurrentQuestionSet,
   setView 
 }) => {
   const [showExplanation, setShowExplanation] = useState(false);
@@ -44,15 +55,6 @@ const TestScreen = ({
       setShowExplanation(false);
     }
   };
-
-  const shuffleArray = (array) => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-};
   
   // If there are no questions, show loading
   if (currentQuestionSet.length === 0) {
