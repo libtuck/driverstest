@@ -12,7 +12,7 @@ const shuffleArray = (array) => {
   const shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    [shuffled[i], shuffled[j]] = [shuffled[i], shuffled[j]];
   }
   return shuffled;
 };
@@ -25,8 +25,8 @@ const TestScreen = ({
   setUserAnswers, 
   testComplete, 
   setTestComplete,
-  setCurrentQuestionSet,
-  setView 
+  setView,
+  setCurrentQuestionSet // Added this prop explicitly
 }) => {
   const [showExplanation, setShowExplanation] = useState(false);
   
@@ -93,6 +93,8 @@ const TestScreen = ({
           </Button>
           <Button
             onClick={() => {
+              // This is the problematic line (line 84)
+              // Ensuring all variables are properly defined
               setCurrentQuestionSet(shuffleArray(questions).slice(0, 40));
               setUserAnswers({});
               setCurrentQuestion(0);
