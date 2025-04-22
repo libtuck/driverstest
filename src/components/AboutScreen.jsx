@@ -14,6 +14,10 @@ const AboutScreen = ({ setView }) => {
           <li>40 multiple-choice questions</li>
           <li>Passing score: 32 correct answers (80%)</li>
           <li>Questions on road signs, traffic laws, and safe driving practices</li>
+           <li>Take your time and read each question carefully</li>
+           <li>If you're unsure about an answer, use the process of elimination</li>
+           <li>Read through the explanation - it helps to have context</li>
+           <li>When you're out and about, pay attention and study while in the car (not when driving)</li>
         </ul>
       </div>
       
