@@ -1,8 +1,8 @@
+import { useState } from 'react';
 import { getRandomQuestions } from './PracticeQuestions';
 
-const [questions] = useState(() => getRandomQuestions(40));
-
 export default function PracticeTest() {
+  const [questions] = useState(() => getRandomQuestions(40));
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState(null);
   const [showExplanation, setShowExplanation] = useState(false);
