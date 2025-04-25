@@ -915,8 +915,107 @@ const questions = [
     optionC: "Your name, address, insurance information, and vehicle registration",
     optionD: "Your social security number",
     correctAnswer: "C",
-    explanation: "After a collision in Washington, you are legally required to provide your name, address, vehicle registration information, and insurance information to the other involved drivers, passengers, or property owners. You must also show your driver's license if requested. Beyond these requirements, avoid discussing fault or details of the collision except with police, your attorney, or your insurance representative."
-];
+    explanation: "After a collision in Washington, you are legally required to provide your name, address, vehicle registration information, and insurance information to the other involved drivers, passengers, or property owners. You must also show your driver's license if requested. Beyond these requirements, avoid discussing fault or details of the collision except with police, your attorney, or your insurance representative."},
+  {
+    question: "What is the legal THC blood concentration limit for drivers under 21 in Washington State?",
+    optionA: "5.00 nanograms per milliliter",
+    optionB: "2.00 nanograms per milliliter",
+    optionC: "0.02 nanograms per milliliter",
+    optionD: "Any detectable amount (0.00)",
+    correctAnswer: "D",
+    explanation: "Washington State has a zero-tolerance policy for drivers under 21 regarding marijuana use. While drivers 21 and older have a legal limit of 5 nanograms of THC per milliliter of blood, drivers under 21 can be charged with a Minor DUI if they have ANY detectable amount of THC in their system. This follows the same principle as Washington's stricter alcohol limits for minors but is even more restrictive, as even trace amounts of THC can result in a DUI charge for those under 21."
+  },
+  {
+    question: "What is the legal limit for THC concentration in a driver's blood in Washington State?",
+    optionA: "Any detectable amount",
+    optionB: "2 nanograms per milliliter",
+    optionC: "5 nanograms per milliliter",
+    optionD: "8 nanograms per milliliter",
+    correctAnswer: "C",
+    explanation: "In Washington State, drivers are considered per se DUI if they have a THC (tetrahydrocannabinol) concentration of 5 nanograms per milliliter or higher in their blood, similar to the 0.08% BAC standard for alcohol. However, a driver can still be charged with DUI with lower levels if their driving is impaired. It's safest not to drive at all after consuming marijuana, as impairment can occur at levels below the legal limit."
+  },
+  {
+    question: "What does a pentagonal-shaped sign with a yellow background indicate?",
+    optionA: "Construction zone",
+    optionB: "School crossing or school zone",
+    optionC: "Railroad crossing",
+    optionD: "Recreational area",
+    correctAnswer: "B",
+    explanation: "A pentagonal (five-sided) sign with a yellow background indicates a school crossing or school zone. These distinctive signs are designed to alert drivers to areas where children may be present. When you see these signs, reduce your speed to the posted school zone limit (typically 20 mph when children are present) and be especially vigilant for children crossing the street or playing near the roadway."
+  },
+  {
+    question: "How long must a driver wait before driving after consuming alcohol?",
+    optionA: "At least 1 hour per drink",
+    optionB: "Until feeling sober",
+    optionC: "Until blood alcohol concentration (BAC) is below legal limits",
+    optionD: "At least 4 hours after the last drink",
+    correctAnswer: "C",
+    explanation: "A driver must wait until their blood alcohol concentration (BAC) is below the legal limit (0.08% for most drivers, 0.04% for commercial drivers, and 0.02% for drivers under 21) before driving. The time this takes varies based on factors including weight, gender, metabolism, amount consumed, and food intake. On average, the body eliminates about one standard drink per hour, but this varies greatly between individuals. The safest approach is to use a designated driver or alternative transportation after drinking."
+  },
+  {
+    question: "What is the minimum safe following distance recommended during ideal driving conditions?",
+    optionA: "1 second",
+    optionB: "2 seconds",
+    optionC: "3 seconds",
+    optionD: "4 seconds",
+    correctAnswer: "B",
+    explanation: "Under ideal driving conditions (good weather, daylight, dry roads), the minimum safe following distance is at least 2 seconds behind the vehicle ahead. To measure this, watch when the vehicle ahead passes a fixed point and count 'one-thousand-one, one-thousand-two.' If you reach that same point before finishing, you're following too closely. This distance should be increased to at least 3-4 seconds in adverse conditions like rain, fog, or night driving, and 8-10 seconds on icy roads."
+  },
+  {
+    question: "What does a white sign with the letters 'RXR' indicate?",
+    optionA: "Restricted access road ahead",
+    optionB: "Railroad crossing ahead",
+    optionC: "Roadwork ahead",
+    optionD: "Recreation area entrance",
+    correctAnswer: "B",
+    explanation: "A white sign with the letters 'RXR' indicates a railroad crossing ahead. This advance warning sign alerts drivers that they will be crossing railroad tracks soon. When you see this sign, be prepared to slow down, look both ways, listen for trains, and be ready to stop if necessary. Never stop on railroad tracks, and make sure there is enough room on the other side before crossing."
+  },
+  {
+    question: "What is the penalty for a second DUI offense in Washington State?",
+    optionA: "Minimum 30 days in jail, fines up to $5,000",
+    optionB: "Minimum 45 days in jail, fines up to $5,000",
+    optionC: "Minimum 30 days in jail, fines up to $3,000",
+    optionD: "Minimum 30 days of community service, fines up to $5,000",
+    correctAnswer: "A",
+    explanation: "In Washington State, a second DUI offense within 7 years carries penalties including a minimum of 30 days in jail, fines up to $5,000, license suspension for 2-3 years, mandatory ignition interlock device for at least 5 years, alcohol assessment and treatment, and up to 5 years of probation. Additionally, the offense becomes part of your permanent criminal record. Penalties increase if your BAC was 0.15% or higher or if you refused a breath test."
+  },
+  {
+    question: "What does a sign with the words 'SPEED MONITORED BY AIRCRAFT' mean?",
+    optionA: "Drones are used to deliver traffic citations",
+    optionB: "Aircraft measure vehicle speeds and relay information to ground officers",
+    optionC: "The area is under surveillance for terrorism threats",
+    optionD: "Low-flying aircraft may be present",
+    correctAnswer: "B",
+    explanation: "A sign reading 'SPEED MONITORED BY AIRCRAFT' indicates that law enforcement may be using aircraft to detect speeding vehicles. The aircraft typically time how long it takes vehicles to travel between painted marks on the roadway, calculate their speed, and radio information to officers on the ground who then stop the vehicle and issue citations if appropriate. These operations are used on highways and other roads where traditional speed enforcement is difficult."
+  },
+  {
+    question: "When driving near a school bus with flashing yellow lights, you should:",
+    optionA: "Continue at normal speed",
+    optionB: "Slow down and prepare to stop",
+    optionC: "Pass on the left side only",
+    optionD: "Speed up to pass before the red lights come on",
+    correctAnswer: "B",
+    explanation: "When a school bus displays flashing yellow lights, it is preparing to stop to load or unload children. You should slow down and prepare to stop. Once the bus displays flashing red lights and extends its stop arm, all traffic from both directions must stop and remain stopped until the lights stop flashing and the stop arm is withdrawn. The only exception is if you're on the opposite side of a divided highway with a physical barrier or median."
+  },
+  {
+    question: "What does an orange-colored sign indicate?",
+    optionA: "Tourist attractions",
+    optionB: "Recreation areas",
+    optionC: "Temporary traffic control, construction, or maintenance",
+    optionD: "School zones",
+    correctAnswer: "C",
+    explanation: "Orange-colored signs indicate temporary traffic control, construction, or maintenance areas. These signs alert drivers to changing road conditions, lane closures, detours, or workers present. When you encounter orange signs, reduce speed, follow any instructions provided, and be prepared for unusual conditions. Traffic fines are often doubled in work zones, and these penalties apply whether workers are visibly present or not."
+  },
+  {
+    question: "How long do you have to wait at the scene of a collision involving only property damage in Washington?",
+    optionA: "You may leave immediately after exchanging information",
+    optionB: "You must wait until police arrive, regardless of circumstances",
+    optionC: "You must wait at least 30 minutes for police",
+    optionD: "You must wait until the other driver leaves first",
+    correctAnswer: "A",
+    explanation: "In Washington State, if you're involved in a collision with only property damage and no injuries, you may leave the scene after stopping and exchanging the required information with the other driver(s). This includes your name, address, phone number, insurance information, and vehicle registration. If the damage exceeds $1,000, you must file a Collision Report with the Department of Licensing within 4 days. If the collision involves an unattended vehicle or property, you must make a reasonable effort to locate the owner or leave your information in a secure place."
+  }
+    ];
 
 export default questions;
 
