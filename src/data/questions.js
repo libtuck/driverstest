@@ -538,7 +538,384 @@ const questions = [
     optionD: "Pedestrians have the right-of-way",
     correctAnswer: "C",
     explanation: "A yellow arrow traffic signal indicates that the protected turning phase is ending. Like a standard yellow light, it warns that the signal is about to change to red. You should stop if you can do so safely. If you're already in the intersection waiting to turn, complete your turn with caution. The yellow arrow typically appears after a green arrow and before either a red light or flashing yellow arrow."
-  }
+  },
+  {
+    question: "In Washington State, what is the speed limit on rural interstate highways unless otherwise posted?",
+    optionA: "60 mph",
+    optionB: "65 mph",
+    optionC: "70 mph",
+    optionD: "75 mph",
+    correctAnswer: "C",
+    explanation: "The default speed limit on rural interstate highways in Washington State is 70 mph unless signs indicate otherwise. Urban interstate highways typically have a 60 mph limit. Always obey posted speed limit signs as they take precedence over these default limits."
+  },
+  {
+    question: "What should you do if your vehicle's accelerator (gas pedal) sticks?",
+    optionA: "Continue driving until you reach your destination",
+    optionB: "Put the car in neutral, apply steady pressure on the brake, and pull over safely",
+    optionC: "Turn off the engine immediately while driving",
+    optionD: "Pump the gas pedal rapidly to unstick it",
+    correctAnswer: "B",
+    explanation: "If your accelerator sticks, shift to neutral immediately, which disconnects the engine from the wheels. Apply steady pressure on the brake (don't pump), look for an escape path, and pull over to a safe location. Once stopped, turn off the engine. Do not turn off the engine while moving as this can disable power steering and power brakes."
+  },
+  {
+    question: "In Washington State, how long is a driver's license valid for most drivers?",
+    optionA: "2 years",
+    optionB: "4 years",
+    optionC: "6 years",
+    optionD: "8 years",
+    correctAnswer: "C",
+    explanation: "In Washington State, a standard driver's license is valid for 6 years before renewal is required. The Department of Licensing will send a renewal notice before the expiration date. Drivers can renew up to a year before the expiration date without losing any time on their license."
+  },
+  {
+    question: "When may you legally cross a double yellow line in Washington State?",
+    optionA: "When passing a slow-moving vehicle",
+    optionB: "When no other vehicles are present",
+    optionC: "When turning left into a driveway or alley",
+    optionD: "During daylight hours only",
+    correctAnswer: "C",
+    explanation: "In Washington State, you may legally cross a double yellow line only when turning left into a driveway, alley, private road, or business entrance. You may not cross a double yellow line to pass another vehicle or for any other purpose. Double yellow lines indicate no passing from either direction."
+  },
+  {
+    question: "What should you do if you're involved in a collision with no injuries but with vehicle damage?",
+    optionA: "Leave immediately and call your insurance company later",
+    optionB: "Move vehicles out of traffic if possible, exchange information, and report if damage exceeds $1,000",
+    optionC: "Wait for police regardless of the severity",
+    optionD: "Exchange phone numbers only",
+    correctAnswer: "B",
+    explanation: "If you're involved in a collision with no injuries but with vehicle damage, you should move vehicles out of traffic if possible to prevent secondary crashes. Exchange information with the other driver(s) including name, address, phone number, license plate, driver's license, and insurance information. You must file a report with the Department of Licensing within 4 days if property damage exceeds $1,000."
+  },
+  {
+    question: "What is the 'Zipper Merge' technique in Washington?",
+    optionA: "A method for quickly changing lanes in heavy traffic",
+    optionB: "Using both lanes until the merge point, then taking turns merging",
+    optionC: "A technique for parallel parking",
+    optionD: "An emergency maneuver to avoid a crash",
+    correctAnswer: "B",
+    explanation: "The Zipper Merge is a technique recommended by WSDOT where drivers use both lanes of traffic until reaching a defined merge point, then alternate (like a zipper) into the open lane. This is most effective in heavy traffic and construction zones as it reduces congestion, prevents dangerous lane switching, and can reduce backups by up to 40%."
+  },
+  {
+    question: "When driving in Washington, what is the legal requirement regarding headlights?",
+    optionA: "Use them only at night",
+    optionB: "Use them from sunset to sunrise and when visibility is less than 1,000 feet",
+    optionC: "Use them only during adverse weather conditions",
+    optionD: "Use them only when other drivers have them on",
+    correctAnswer: "B",
+    explanation: "Washington law requires headlights to be used from sunset to sunrise and at any time when you cannot clearly see a person or vehicle from a distance of 1,000 feet due to insufficient light or unfavorable atmospheric conditions. This includes fog, rain, snow, or smoke. Using headlights in low visibility conditions helps others see your vehicle."
+  },
+  {
+    question: "How long must a new resident of Washington wait before obtaining a Washington driver's license?",
+    optionA: "30 days after establishing residency",
+    optionB: "60 days after establishing residency",
+    optionC: "90 days after establishing residency",
+    optionD: "6 months after establishing residency",
+    correctAnswer: "A",
+    explanation: "New Washington residents must obtain a Washington State driver's license within 30 days of establishing residency. Establishing residency includes registering to vote, paying in-state tuition, getting a job, or renting/buying a home in the state. Out-of-state licenses must be surrendered when obtaining a Washington license."
+  },
+  {
+    question: "What is Washington's 'Good Samaritan Law' regarding assistance at accident scenes?",
+    optionA: "It requires all drivers to stop and render aid at accident scenes",
+    optionB: "It protects people who provide reasonable emergency care from liability",
+    optionC: "It applies only to medical professionals",
+    optionD: "It requires drivers to carry first aid equipment",
+    correctAnswer: "B",
+    explanation: "Washington's Good Samaritan Law protects people who provide emergency care at accident scenes from liability, as long as they act in good faith and provide reasonable emergency care. This law encourages people to help at accident scenes without fear of being sued if something goes wrong, provided they don't act with gross negligence."
+  },
+  {
+    question: "What is the appropriate action when approaching a roundabout in Washington?",
+    optionA: "Enter at full speed to merge with traffic",
+    optionB: "Always come to a complete stop before entering",
+    optionC: "Slow down and yield to traffic already in the roundabout",
+    optionD: "Sound your horn to alert other drivers",
+    correctAnswer: "C",
+    explanation: "When approaching a roundabout, slow down and look for traffic already in the roundabout. You must yield to vehicles already in the roundabout. Enter when there is a safe gap in traffic. Always travel counterclockwise around the center island. Signal right before exiting the roundabout and look for pedestrians when exiting."
+  },
+  {
+    question: "What is the 'Slow Down, Move Over' law in Washington State?",
+    optionA: "A law requiring drivers to move over for faster traffic",
+    optionB: "A law requiring drivers to slow down in school zones",
+    optionC: "A law requiring drivers to slow down and move over for emergency and work vehicles",
+    optionD: "A law for trucks on steep downgrades",
+    correctAnswer: "C",
+    explanation: "Washington's 'Slow Down, Move Over' law requires drivers approaching stationary emergency vehicles, tow trucks, road maintenance vehicles, utility vehicles, or other authorized vehicles displaying flashing lights to either move over to another lane (if safe) or slow down significantly below the posted speed limit. Violating this law can result in a $214 fine and potential criminal charges if a collision occurs."
+  },
+  {
+    question: "When passing a bicycle in Washington State, what is the minimum safe passing distance required by law?",
+    optionA: "1 foot",
+    optionB: "2 feet",
+    optionC: "3 feet",
+    optionD: "5 feet",
+    correctAnswer: "C",
+    explanation: "Washington law requires motorists to pass bicyclists with at least 3 feet of space. If road conditions allow, you should give even more space. This ensures the safety of cyclists who may need to maneuver around road hazards. If you cannot provide at least 3 feet of passing space, you should wait until it's safe to pass."
+  },
+  {
+    question: "In Washington State, what is the law regarding child passengers who are under 2 years old?",
+    optionA: "They must ride in the back seat in any approved restraint",
+    optionB: "They must ride in a rear-facing car seat until age 2 or until they exceed height/weight limits",
+    optionC: "They may ride in a forward-facing seat if they weigh more than 20 pounds",
+    optionD: "They may use a booster seat",
+    correctAnswer: "B",
+    explanation: "Washington law requires children under age 2 to ride in a rear-facing car seat until they reach the height or weight limit of their car seat as set by the manufacturer. Rear-facing positions provide better protection for a young child's head, neck, and spine in the event of a crash. After reaching the limits, they can move to a forward-facing seat with a harness."
+  },
+  {
+    question: "What should you do if you witness a traffic accident in Washington State?",
+    optionA: "Drive around it to avoid being involved",
+    optionB: "Stop only if someone waves for help",
+    optionC: "Stop at a safe location, call 911, and provide aid if you can do so safely",
+    optionD: "Take photos and post them online",
+    correctAnswer: "C",
+    explanation: "If you witness a traffic accident, stop at a safe location away from traffic. Call 911 immediately to report the accident location and apparent injuries. Provide reasonable assistance if you can do so safely. Washington's Good Samaritan Law protects those who provide reasonable emergency care from liability. Don't move injured people unless there's immediate danger, and remain at the scene until emergency services arrive."
+  },
+  {
+    question: "What does Washington law require regarding mandatory vehicle insurance?",
+    optionA: "Insurance is optional for experienced drivers",
+    optionB: "Insurance is required only for vehicles less than 5 years old",
+    optionC: "All drivers must carry proof of liability insurance or other financial responsibility",
+    optionD: "Insurance is required only for drivers under age 25",
+    correctAnswer: "C",
+    explanation: "Washington law requires all drivers to carry proof of liability insurance or other approved financial responsibility while driving. The minimum liability coverage required is $25,000 for injury or death to one person, $50,000 for injury or death to all persons in one accident, and $10,000 for property damage. Driving without insurance can result in a fine, license suspension, and SR-22 requirements."
+  },
+  {
+    question: "In Washington State, when can a driver use a handheld wireless communications device?",
+    optionA: "When stopped at a traffic light",
+    optionB: "When driving under 25 mph",
+    optionC: "Only in emergencies or when reporting illegal activity",
+    optionD: "Anytime, if using the speaker function",
+    correctAnswer: "C",
+    explanation: "In Washington State, drivers may only use a handheld wireless communications device (including cell phones) when reporting an emergency, alerting authorities to potential criminal activity, or during emergencies. All other handheld device use while driving is prohibited, even when temporarily stopped at a traffic light or in traffic. Hands-free use is permitted for drivers 18 and older."
+  },
+  {
+    question: "What is the law regarding marijuana use and driving in Washington State?",
+    optionA: "Legal as long as you have a medical prescription",
+    optionB: "Legal as long as it has been at least 2 hours since consumption",
+    optionC: "Illegal to drive with a THC blood concentration of 5.00 ng/ml or higher",
+    optionD: "Legal if the marijuana is in a sealed container",
+    correctAnswer: "C",
+    explanation: "In Washington State, it is illegal to drive with a THC (the active ingredient in marijuana) blood concentration of 5.00 nanograms per milliliter or higher. This is considered a per se DUI offense, similar to the 0.08% BAC limit for alcohol. It's also illegal to use marijuana while driving or to have open containers of marijuana in the passenger area of a vehicle. The fact that marijuana is legal for adults 21+ in Washington does not make it legal to drive under its influence."
+  },
+  {
+    question: "What is Washington's law regarding the use of studded tires?",
+    optionA: "Allowed year-round in mountain areas",
+    optionB: "Allowed from November 1 to March 31",
+    optionC: "Prohibited throughout the state",
+    optionD: "Allowed only during declared snow emergencies",
+    correctAnswer: "B",
+    explanation: "In Washington State, studded tires are only legal to use from November 1 to March 31. Using studded tires outside this period can result in a traffic infraction and fine. This restriction exists because studded tires cause significant damage to road surfaces when used on bare pavement. The Washington State Department of Transportation encourages drivers to consider approved alternative traction tires that are legal year-round."
+  },
+  {
+    question: "What action should you take when approaching a transit bus with its yield sign flashing?",
+    optionA: "Speed up to pass before the bus pulls out",
+    optionB: "Slow down and be prepared to stop as the bus has the right-of-way",
+    optionC: "Honk to let the bus driver know you're there",
+    optionD: "Change lanes immediately without checking for traffic",
+    correctAnswer: "B",
+    explanation: "Washington law requires drivers to yield to a transit bus displaying a yield sign that is attempting to reenter traffic from a bus stop. You should slow down and prepare to stop if necessary, as the bus has the right-of-way. This law helps public transportation operate efficiently and safely. After the bus has merged safely, you may resume normal driving."
+  },
+  {
+    question: "When driving in Washington, when are you required to turn on your vehicle's headlights?",
+    optionA: "Only after sunset",
+    optionB: "Only during rain or snow",
+    optionC: "From 30 minutes after sunset to 30 minutes before sunrise and when visibility is limited",
+    optionD: "Only when driving on rural roads",
+    correctAnswer: "C",
+    explanation: "Washington law requires headlights to be used from 30 minutes after sunset until 30 minutes before sunrise. Headlights are also required when conditions prevent you from clearly seeing a person or vehicle from 1,000 feet away, such as during fog, rain, snow, or smoke. Using headlights in these conditions makes your vehicle more visible to others and increases safety."
+  },
+  {
+    question: "What does a octagonal-shaped sign indicate?",
+    optionA: "School zone",
+    optionB: "Yield",
+    optionC: "Stop",
+    optionD: "Railroad crossing",
+    correctAnswer: "C",
+    explanation: "An octagonal (eight-sided) sign always means STOP. When you see this sign, you must come to a complete stop at the marked stop line or before entering the crosswalk or intersection if there is no stop line. After stopping, yield to pedestrians and vehicles that have the right-of-way before proceeding. The octagonal shape and red color are standardized nationally so drivers can recognize stop signs immediately even in poor visibility."
+  },
+  {
+    question: "In Washington State, what is the fine for a first offense of driving while using a handheld cell phone?",
+    optionA: "$48",
+    optionB: "$99",
+    optionC: "$136",
+    optionD: "$500",
+    correctAnswer: "C",
+    explanation: "In Washington State, the fine for a first offense of driving while using a handheld cell phone is $136 under the Driving Under the Influence of Electronics Act. Second and subsequent offenses within five years increase to $234. These violations are considered primary offenses, meaning an officer can pull you over solely for this violation, and they appear on your driving record."
+  },
+  {
+    question: "What should you do if your vehicle has a tire blowout while driving?",
+    optionA: "Brake hard immediately to stop quickly",
+    optionB: "Pull over immediately wherever you are",
+    optionC: "Grip the steering wheel firmly, gradually reduce speed, and pull off the road safely",
+    optionD: "Turn sharply toward the side of the good tire",
+    correctAnswer: "C",
+    explanation: "If you experience a tire blowout, grip the steering wheel firmly with both hands to maintain control of your vehicle. Don't brake suddenly, as this can cause your vehicle to skid or spin. Instead, take your foot off the gas pedal and let the vehicle slow down gradually. Keep the vehicle moving straight ahead while it slows, then gently apply the brakes and pull off the road to a safe location. Once safely off the road, activate your hazard lights."
+  },
+  {
+    question: "Which of the following is TRUE about driving in the left lane of a multi-lane highway in Washington?",
+    optionA: "It's legal to drive continuously in the left lane if you're driving the speed limit",
+    optionB: "The left lane is reserved only for emergency vehicles",
+    optionC: "You must move right if another vehicle is overtaking you, regardless of your speed",
+    optionD: "You can drive in the left lane only during daylight hours",
+    correctAnswer: "C",
+    explanation: "In Washington State, the left lane of a multi-lane highway is designated as a passing lane, not a travel lane. The 'Keep Right Except to Pass' law requires vehicles to stay in the right lane unless they are actively passing another vehicle, regardless of speed. If another vehicle approaches from behind, you must move right when safe to do so, even if you are driving at the speed limit. Continuous left lane driving impedes traffic flow and is subject to a $136 fine."
+  },
+  {
+    question: "When two vehicles arrive at a four-way stop simultaneously from perpendicular directions, who has the right-of-way?",
+    optionA: "The vehicle on the left",
+    optionB: "The vehicle on the right",
+    optionC: "The vehicle that is going straight",
+    optionD: "The larger vehicle",
+    correctAnswer: "B",
+    explanation: "When two vehicles arrive at a four-way stop at the same time and are positioned at perpendicular directions, the vehicle on the right has the right-of-way. This is based on the general right-of-way rule that applies at uncontrolled or stop-controlled intersections. However, all drivers should make eye contact and use clear signals to confirm intentions."
+  },
+  {
+    question: "In Washington State, how many points does a driver need to accumulate before their license can be suspended?",
+    optionA: "3 points within a year",
+    optionB: "6 points within a year",
+    optionC: "12 points within a year",
+    optionD: "Washington doesn't use a point system",
+    correctAnswer: "D",
+    explanation: "Washington State does not use a point system for traffic violations. Instead, the Department of Licensing tracks the number and type of violations. License suspension is based on the seriousness of violations and how many you receive within a certain time period. For example, committing certain serious violations even once, like DUI or reckless driving, can result in immediate suspension."
+  },
+  {
+    question: "What are the consequences for refusing a breath test when suspected of DUI in Washington State?",
+    optionA: "No consequences if you're a first-time offender",
+    optionB: "A small fine only",
+    optionC: "Automatic license suspension of at least 1 year",
+    optionD: "5 days in jail",
+    correctAnswer: "C",
+    explanation: "Under Washington's Implied Consent Law, refusing a breath test when lawfully arrested for DUI results in automatic license suspension of at least 1 year for a first refusal, 2 years for a second refusal, and 3 years for subsequent refusals within seven years. This administrative suspension is separate from any criminal penalties if you're convicted of DUI. Additionally, your refusal can be used against you in court."
+  },
+  {
+    question: "What is the proper technique for driving through standing water on the roadway?",
+    optionA: "Drive through quickly to splash the water away",
+    optionB: "Drive through slowly in a low gear, then test your brakes afterward",
+    optionC: "Stop and wait for the water to drain away",
+    optionD: "Zigzag through the water to maintain traction",
+    correctAnswer: "B",
+    explanation: "When driving through standing water that you cannot avoid, slow down and proceed in a lower gear (1st or 2nd if manual, low range if automatic). Keep your engine RPMs up and maintain a consistent, slow speed to create a bow wave in front of your vehicle. After passing through the water, lightly apply your brakes to dry them. Deep water can damage your engine or cause your vehicle to float, so avoid water that appears deeper than 6 inches."
+  },
+  {
+    question: "What vehicle equipment is legally required to be operational at all times in Washington State?",
+    optionA: "Air conditioning",
+    optionB: "Cruise control",
+    optionC: "Windshield wipers",
+    optionD: "Heated seats",
+    correctAnswer: "C",
+    explanation: "Washington law requires that all factory-installed safety equipment on a vehicle must be present and in working order, including windshield wipers, which are essential for visibility during precipitation. Other required equipment includes headlights, tail lights, brake lights, turn signals, mirrors, horn, brakes, muffler, windshield, safety belts, and emissions control equipment where applicable."
+  },
+  {
+    question: "What is the 'Basic Speed Law' in Washington State?",
+    optionA: "Never exceed the posted speed limit",
+    optionB: "Drive at the same speed as surrounding traffic",
+    optionC: "Never drive slower than the posted minimum speed",
+    optionD: "Drive at a speed appropriate for existing conditions, regardless of posted limits",
+    correctAnswer: "D",
+    explanation: "Washington's Basic Speed Law requires drivers to operate at a speed that is reasonable and prudent for the existing conditions, regardless of posted speed limits. This means you must adjust your speed for weather, visibility, traffic, road conditions, and other hazards. You can be cited for driving too fast for conditions even if you're within the posted speed limit."
+  },
+  {
+    question: "What should you do if you're driving and your vehicle catches fire?",
+    optionA: "Open all windows to release the smoke",
+    optionB: "Pull over immediately, shut off the engine, and get everyone out of the vehicle",
+    optionC: "Drive faster to extinguish the flames with airflow",
+    optionD: "Pour water on the engine while it's running",
+    correctAnswer: "B",
+    explanation: "If your vehicle catches fire while driving, signal, pull over to a safe location away from traffic, turn off the engine to stop the flow of fuel, and get everyone out of the vehicle immediately. Move at least 100 feet away from the vehicle and call emergency services. If you have a fire extinguisher and the fire is small, you may attempt to extinguish it, but only if you can do so safely. Never return to a burning vehicle for possessions."
+  },
+  {
+    question: "In Washington State, what is the penalty for being convicted of reckless driving?",
+    optionA: "A $50 fine",
+    optionB: "Up to 90 days in jail and/or a fine up to $1,000, plus license suspension",
+    optionC: "Mandatory community service only",
+    optionD: "A warning for first-time offenders",
+    correctAnswer: "B",
+    explanation: "In Washington State, reckless driving is a gross misdemeanor punishable by up to 90 days in jail and/or a fine up to $1,000. Additionally, your driver's license will be suspended for 30 days. Reckless driving is defined as driving with willful or wanton disregard for the safety of persons or property, and is a serious offense that results in a criminal record."
+  },
+  {
+    question: "When is it permissible to drive in a bike lane in Washington State?",
+    optionA: "When traffic is congested",
+    optionB: "When making a right turn after yielding to cyclists",
+    optionC: "When no cyclists are present",
+    optionD: "Whenever it's convenient",
+    correctAnswer: "B",
+    explanation: "In Washington State, you may only drive in a bike lane when making a right turn, and only within 200 feet of the intersection after first yielding to any cyclists in the lane. At all other times, motor vehicles are prohibited from driving in designated bike lanes. These lanes are specifically designed to provide a safer space for cyclists separate from motor vehicle traffic."
+  },
+  {
+    question: "Which of the following statements about motorcycles is TRUE?",
+    optionA: "Motorcycles don't have the same rights as other vehicles on the road",
+    optionB: "Motorcycles are entitled to use a full lane, just like other vehicles",
+    optionC: "Motorcycles should always be passed in the same lane they're using",
+    optionD: "Motorcycles don't need to signal turns if hand signals are used",
+    correctAnswer: "B",
+    explanation: "Motorcycles are entitled to the full use of a lane, just like other vehicles. Never try to share a lane with a motorcycle or pass one in the same lane they're using. Motorcycles often adjust position within a lane to better see traffic or avoid road hazards, so they need the full lane width. Treat motorcycles with the same respect and following distance as other vehicles."
+  },
+  {
+    question: "What is the 'Idaho Stop' law regarding bicycles in Washington State?",
+    optionA: "Bicyclists can treat stop signs as yield signs",
+    optionB: "Bicyclists must come to a complete stop at all stop signs",
+    optionC: "Bicyclists can ignore traffic signals entirely",
+    optionD: "Bicyclists can ride on interstate highways",
+    correctAnswer: "A",
+    explanation: "As of 2020, Washington State has implemented the 'Safety Stop' law (similar to Idaho's law), which allows bicyclists to treat stop signs as yield signs. When approaching a stop sign, if it is safe to do so, bicyclists may yield the right-of-way if required and then proceed without coming to a complete stop. However, they must still stop at red traffic signals until they receive a green light or, in some jurisdictions, until they've verified it's safe to proceed."
+  },
+  {
+    question: "When driving near a large commercial truck, which of the following is the safest practice?",
+    optionA: "Drive in the truck's blind spots to stay out of the way",
+    optionB: "Pass on the right side where visibility is better",
+    optionC: "Stay far enough behind that you can see the truck's side mirrors",
+    optionD: "Drive closely behind the truck to take advantage of reduced wind resistance",
+    correctAnswer: "C",
+    explanation: "When driving near a large truck, stay far enough behind that you can see the truck's side mirrors. This ensures the truck driver can see you. Trucks have large blind spots (\"No Zones\") on all four sides, especially on the right side and directly behind the truck. Never linger in these blind spots, pass on the left when possible, and maintain a greater following distance than you would with a passenger vehicle."
+  },
+  {
+    question: "At what Blood Alcohol Concentration (BAC) level are drivers 21 and older considered legally impaired in Washington State?",
+    optionA: "0.05%",
+    optionB: "0.08%",
+    optionC: "0.10%",
+    optionD: "Any detectable amount",
+    correctAnswer: "B",
+    explanation: "In Washington State, drivers 21 and older are considered legally impaired with a Blood Alcohol Concentration (BAC) of 0.08% or higher. However, a driver can still be arrested and convicted of DUI with a lower BAC if their ability to drive is affected by alcohol or drugs. For commercial drivers, the limit is 0.04%, and for drivers under 21, it's 0.02%."
+  },
+  {
+    question: "What should you do if you're involved in a vehicle collision with a deer or other large animal in Washington?",
+    optionA: "Take the animal home if it's dead",
+    optionB: "Report the incident to law enforcement and your insurance company",
+    optionC: "Leave the scene after moving the animal to the side of the road",
+    optionD: "Only report collisions that occur during hunting season",
+    correctAnswer: "B",
+    explanation: "If you hit a deer or other large animal in Washington, pull over to a safe location if possible and turn on your hazard lights. Check for injuries to people in your vehicle and call 911 if anyone is hurt. Report the collision to law enforcement, especially if the animal is blocking traffic or injured but still alive. Take photos for insurance purposes and contact your insurance company. Never approach an injured animal, as it may be dangerous when frightened or hurt."
+  },
+  {
+    question: "What is the proper action when encountering a pedestrian using a white cane or guide dog?",
+    optionA: "Honk to alert them of your presence",
+    optionB: "Stop and wait until they cross, yielding the right-of-way",
+    optionC: "Drive around them quickly",
+    optionD: "Flash your lights to help them see better",
+    correctAnswer: "B",
+    explanation: "When encountering a pedestrian using a white cane or guide dog, you must come to a complete stop and yield the right-of-way. Washington law gives absolute right-of-way to visually impaired pedestrians using a white cane or guide dog. These pedestrians may not be able to see your vehicle, so wait patiently until they have completely crossed before proceeding. Do not honk, rev your engine, or make sudden movements that could startle or confuse them."
+  },
+  {
+    question: "What is the 'Positive Control of Vehicle' law in Washington State?",
+    optionA: "A requirement to only think positive thoughts while driving",
+    optionB: "A requirement to keep positive air pressure in all tires",
+    optionC: "A requirement that drivers must be able to control their vehicles at all times",
+    optionD: "A requirement to maintain a positive attitude toward other drivers",
+    correctAnswer: "C",
+    explanation: "Washington's 'Positive Control of Vehicle' law requires that drivers must maintain control of their vehicles at all times. This means being able to perform normal driving functions like steering, braking, and acceleration without difficulty. Violations occur when drivers cannot control their vehicles due to factors like excessive speed for conditions, distraction, impairment, or operating a vehicle with known mechanical issues. Failure to maintain positive control that results in a collision can lead to additional charges or liability."
+  },
+  {
+    question: "What does a sign with the letters \"HOV\" and a diamond symbol mean?",
+    optionA: "High Occupancy Vehicle lane restricted to vehicles with multiple occupants",
+    optionB: "Heavy Oversize Vehicle route for large trucks",
+    optionC: "Highway Overpass Vicinity - watch for bridges",
+    optionD: "High Outflow Volume - area prone to flooding",
+    correctAnswer: "A",
+    explanation: "A sign with 'HOV' and a diamond symbol indicates a High Occupancy Vehicle lane. These lanes are restricted to vehicles carrying a minimum number of occupants (typically 2 or 3, as specified on the sign). The purpose of HOV lanes is to reduce traffic congestion by encouraging carpooling. The diamond symbol is also painted on the pavement of HOV lanes. Violating HOV lane restrictions can result in a substantial fine."
+  },
+  {
+    question: "What information are you legally required to provide to other involved parties after a collision in Washington?",
+    optionA: "Only your name",
+    optionB: "Your name and address only",
+    optionC: "Your name, address, insurance information, and vehicle registration",
+    optionD: "Your social security number",
+    correctAnswer: "C",
+    explanation: "After a collision in Washington, you are legally required to provide your name, address, vehicle registration information, and insurance information to the other involved drivers, passengers, or property owners. You must also show your driver's license if requested. Beyond these requirements, avoid discussing fault or details of the collision except with police, your attorney, or your insurance representative."
 ];
 
 export default questions;
